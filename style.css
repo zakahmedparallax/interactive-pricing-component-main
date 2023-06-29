@@ -3,6 +3,7 @@
 
 body { 
     background-color: hsl(230, 100%, 99%);
+    margin: auto;
 }
 
 .headings {
@@ -12,10 +13,37 @@ body {
 
 h1 {
     font-size:60px;
+    font-size: 15px;
+    font-family: Manrope; 
 }
 
 p {
-    color: hsl(225, 20%, 60%)
+    color: hsl(225, 20%, 60%);
+    font-size: 15px;
+    font-family: Manrope; 
+}
+
+ul { 
+    font-size: 15px;
+    font-family: Manrope; 
+    margin: 0 0 0 32px;
+    line-height: 1.5;
+    list-style-type: none;
+}
+
+.tick { 
+    list-style-image: url('images/icon-check.svg');
+}
+a { 
+    border-radius: 30px 30px 30px 30px;
+    background-color: hsl(227, 35%, 25%);
+    color: hsl(225, 20%, 60%);
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Manrope; 
+    padding-inline: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 .headings h1 {
     font-size:40px;
@@ -23,9 +51,31 @@ p {
 
 .priceBox {
     background-color:  hsl(0, 0%, 100%);
-    text-align: center;
     justify-content: center;
 }
 .pricePreview { 
-    
+    text-rendering: auto;
+}
+
+.slider {
+    -webkit-appearance: none;
+    border-radius: 30px 30px 30px 30px;
+    height: 4px;
+    background: hsl(100, 77%, 43%);
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: url(images/icon-slider.svg);
+  }
+
+.discountYearly{
+    color: hsl(15, 100%, 70%);
+    background-color: hsl(14, 92%, 95%);
+    width: fit-content;
+    padding-inline: 5px;
+    border-radius: 30px 30px 30px 30px;
 }
