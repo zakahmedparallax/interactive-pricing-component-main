@@ -1,7 +1,8 @@
-var value = document.getElementById("value");
-var input = document.getElementById("mainSlider").value;
+
+const value = document.querySelector("#value");
+const input = document.querySelector("#priceSlider");
 
 value.textContent = input.value;
-input.addEventListener("input", (event) => {
-    value.textContent = event.target;
-});
+// input.addEventListener("input", (event) => {
+//     value.textContent = event.target.value;
+// });
