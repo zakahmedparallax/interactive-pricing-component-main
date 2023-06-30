@@ -6,6 +6,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Manrope">
+  <script type="text/javascript" src="scripts/price.js"></script>  
   <title>Frontend Mentor | Interactive pricing component</title>
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 </head>
@@ -20,12 +21,13 @@
       <div class = "pricePreview">
         <div class = "inlinePrices">
           <br> 
-          <span class = text>Pageviews</span>
-          <span>$</span>
-          <span>/month</span>  
+          <span class = "text">100K Pageviews</span>
+          <span class = "price">$16.00</span>
+          <span class = "month">/month</span>  
        </div>
         <div class="priceSlider">
-          <input type="range" min="1" max="200" value="1" class="slider">
+          <input id="mainSlider" value="10" type="range" min="1" max="200" class="slider" step="any">
+          <p>Value: <output id="value"></output></p>
         </div>
       </div>
       

@@ -16,12 +16,26 @@ h1 {
     font-family: Manrope; 
 }
 
+.price {
+    margin-left: 250px;
+    font-size: 50px;
+    font-family: Manrope; 
+    font-weight: 800;
+}
+
 .text {
     color: hsl(225, 20%, 60%);
     font-size: 15px;
     font-family: Manrope; 
+    font-weight: 600;
 }
 
+.month { 
+    color: hsl(225, 20%, 60%);
+    font-size: 15px;
+    font-family: Manrope; 
+    font-weight: 600;
+}
 ul { 
     font-size: 15px;
     font-family: Manrope; 
@@ -76,7 +90,7 @@ a {
 }
 
 .inlinePrices {
-    display:inline;
+    text-align: center;
 }
 .slider {
     -webkit-appearance: none;
@@ -178,3 +192,4 @@ a {
   .benefitsAndStartTrial { 
     display: flex;
   }
+
