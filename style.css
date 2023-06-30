@@ -37,39 +37,10 @@ h1 {
     font-weight: 600;
     
 }
-ul { 
-    font-size: 15px;
-    font-family: Manrope; 
-    margin: 0 0 0 32px;
-    line-height: 1.5;
-    list-style-type: none;
-    
-}
-
-li { 
-    margin: 8px 0;
-}
 .tick { 
     list-style-image: url('images/icon-check.svg');
 }
-a { 
-    border-radius: 30px 30px 30px 30px;
-    background-color: hsl(227, 35%, 25%);
-    color: hsl(226, 100%, 87%);
-    text-decoration: none;
-    font-size: 15px;
-    font-family: Manrope; 
-    padding-inline: 30px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    margin: 20px;
-    margin-left: auto;
-    margin-top: 35px;
-    width: max-content;
-    height: min-content;
-    text-align: center;
-    font-weight: 600;
-}
+
 .headings h1 {
     font-size:40px;
 }
@@ -80,15 +51,6 @@ a {
     display: flex; 
     align-items: center;
     justify-content: center;
-}
-.priceBox {
-    width: fit-content;
-    background-color:  hsl(0, 0%, 100%);
-    display: inline-grid;
-    align-items: center;
-    justify-content: center;
-    border-radius: 8px 8px 8px 8px;
-    box-shadow: #888888 2px 2px 10px;
 }
 
 .centerChoosePricing {
@@ -200,6 +162,103 @@ a {
     right: 0;
   }
   
-  .benefitsAndStartTrial { 
-    display: flex;
+  @media only screen and (min-width: 721px) {
+
+    .priceBox {
+        width: fit-content;
+        background-color:  hsl(0, 0%, 100%);
+        display: inline-grid;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px 8px 8px 8px;
+        box-shadow: #888888 2px 2px 10px;
+    }
+
+    .benefitsAndStartTrial { 
+        display: flex;
+    }
+    a { 
+        border-radius: 30px 30px 30px 30px;
+        background-color: hsl(227, 35%, 25%);
+        color: hsl(226, 100%, 87%);
+        text-decoration: none;
+        font-size: 15px;
+        font-family: Manrope; 
+        padding-inline: 30px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        margin: 20px;
+        margin-left: auto;
+        margin-top: 35px;
+        width: max-content;
+        height: min-content;
+        text-align: center;
+        font-weight: 600;
+    }
+    ul { 
+        font-size: 15px;
+        font-family: Manrope; 
+        margin: 0 0 0 32px;
+        line-height: 1.5;
+        list-style-type: none;
+        
+    }
+    
+    li { 
+        margin: 8px 0;
+    }
+
+
+  }
+
+  @media only screen and (max-width: 721px) {
+
+    .priceBox {
+        width: 90vw;
+        background-color:  hsl(0, 0%, 100%);
+        display: inline-grid;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px 8px 8px 8px;
+        box-shadow: #888888 2px 2px 10px;
+    }
+
+    .greyDivider { 
+        width:99.5%;
+        text-align:center;
+        margin-bottom:30px;
+    }
+    .benefitsAndStartTrial { 
+        padding : 2px;
+        display: table;
+        align-items: center;
+        justify-content: center;
+    }
+    a { 
+        border-radius: 30px 30px 30px 30px;
+        background-color: hsl(227, 35%, 25%);
+        color: hsl(226, 100%, 87%);
+        text-decoration: none;
+        font-size: 15px;
+        font-family: Manrope; 
+        padding-inline: 30px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        width: max-content;
+        height: min-content;
+        text-align: center;
+        font-weight: 600;
+    }
+    ul { 
+        font-size: 15px;
+        font-family: Manrope; 
+        margin: 0 0 0 50vw;
+        line-height: 1.5;
+        list-style-type: none;
+        
+    }
+    
+    li { 
+        margin: 8px 0;
+    }
   }
