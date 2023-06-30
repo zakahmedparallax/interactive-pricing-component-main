@@ -13,7 +13,7 @@
 <body>
   <div class="headings">
     <h1>Simple, traffic-based pricing</h1>
-    <p>Sign-up for our 30-day trial. No credit card required.</h4>
+    <p class="text">Sign-up for our 30-day trial. No credit card required.</h4>
   </div>
 
   <div class="centre">
@@ -26,26 +26,28 @@
           <span class = "month">/month</span>  
        </div>
         <div class="priceSlider">
-          <input id="mainSlider" value="10" type="range" min="1" max="200" class="slider" step="any">
-          <p>Value: <output id="value"></output></p>
+          <input id="mainSlider" value="100" type="range" min="1" max="200" class="slider" step="any">
+          <!-- <p>Value: <output id="value"></output></p> -->
         </div>
       </div>
       
       <div class="choosePricing">
-        <p class = text>Monthly Billing</p>
-        <div class="flipswitch">
-          <input type="checkbox" name="flipswitch" class="flipswitch-cb" id="fs" checked>
-          <label class="flipswitch-label" for="fs">
-              <div class="flipswitch-inner"></div>
-              <div class="flipswitch-switch"></div>
-          </label>
-        </div>
-        <div class="discountSelection">
-          <p class = text>Yearly Billing</p>
+        <div class = "centerChoosePricing">
+          <p class = "text">Monthly Billing</p>
+          <div class="flipswitch">
+            <input type="checkbox" name="flipswitch" class="flipswitch-cb" id="fs" checked>
+            <label class="flipswitch-label" for="fs">
+                <div class="flipswitch-inner"></div>
+                <div class="flipswitch-switch"></div>
+            </label>
+          </div>      
+          <div class="discountSelection">
+            <p class = text>Yearly Billing</p>
+          </div>
           <p class="discountYearly text">25% discount</p>
         </div>
       </div>
-
+      <hr style="width:99.5%;text-align:center;margin-bottom:30px"> 
       <div class = "benefitsAndStartTrial">
         <ul>
           <li class="tick">Unlimited websites</li>
